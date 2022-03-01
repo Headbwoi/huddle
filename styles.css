@@ -210,8 +210,20 @@ section {
       padding: 1.3rem;
       border-radius: 5px;
       margin-bottom: 2rem; }
+      .footer .footer-content .footer-form .input-btn input.error{
+        border: 1px solid rgb(199, 14, 14);
+      }
+      .footer .footer-content .footer-form .input-btn input.success{
+        border: 1px solid rgb(34, 230, 34);
+      }
       .footer .footer-content .footer-form .input-btn input::placeholder {
         opacity: 0.5; }
+       
+    .footer .footer-content .footer-form .input-btn .error-txt {
+      color: #c70e0e;
+      font-size: 1.3rem;
+      height: 1rem;
+      margin-top: -1.7rem; }
     .footer .footer-content .footer-form .submit-btn {
       display: flex;
       justify-content: flex-end;

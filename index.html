@@ -146,12 +146,13 @@
               pass on your email address.
             </p>
           </div>
-          <form class="footer-form">           
+          <form class="footer-form" id="form">           
               <div class="input-btn">
-                <input type="text" placeholder="enter your email" />
+                <input onkeyup="checkEmail()" type="text" id="email" placeholder="enter your email" />
+                <div id="error-txt" class="error-txt"></div>
               </div>
               <div class="submit-btn">
-                <input type="submit" value="Subscribe" class=" btn sub-btn" />
+                <input type="submit" id="submit" value="Subscribe" class=" btn sub-btn" />
               </div>
             
           </form>
@@ -200,5 +201,7 @@
         >. Coded by <a href="#">Headbwoi</a>.
       </p>
     </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
